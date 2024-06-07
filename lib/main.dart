@@ -38,7 +38,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
         title: const Text('Images in Flutter'),
       ),
-      body: Image.asset('assets/images/image.png')
+      body: Center(
+        child: Container(
+            width: 300,
+            height: 300,
+            child: Image.asset('assets/images/xander_logo.png')),
+      )
 
     );
   }
